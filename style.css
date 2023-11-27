@@ -1,0 +1,19 @@
+#greycol {
+    color:grey;
+}
+.yellow {
+    color: yellow;
+}
+div:not([class="text-box"]) > p {
+    color: red;
+}
+div + h3 + p {
+    color: green;
+}
+
+div.text-box > h3 {
+    color: pink;
+}
+div.text-box > div + h3{
+    color:black;
+}

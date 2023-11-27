@@ -1,0 +1,28 @@
+.link:link {
+    color: teal;
+}
+.link:focus {
+    color: blueviolet;
+}
+link:hover {
+    color: red;
+}
+link:visited {
+    color: yellowgreen;
+}
+
+li:nth-child(even) {
+    color:yellow;
+    background-color: gray;
+}
+li:nth-child(odd) {
+    color:lightseagreen;
+    background-color: lightgray;
+}
+.h3:nth-child(odd) {
+    color:greenyellow;
+}
+.h3:nth-child(even) {
+    color:lightcoral;
+}
+
